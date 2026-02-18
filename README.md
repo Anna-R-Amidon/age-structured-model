@@ -20,7 +20,7 @@ monitored after the first closure. Survival and fecundity are known for ages 1�
 
 Age-0 survival is modeled as:
 
-<sub>0</sub> = α · e<sup>−βᵈ N<sub>t</sub></sup>
+S<sub>0</sub> = α · e<sup>−βᵈ N<sub>t</sub></sup>
 
 where:
 - **α** = baseline age-0 survival  
