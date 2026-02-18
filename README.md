@@ -20,9 +20,7 @@ monitored after the first closure. Survival and fecundity are known for ages 1�
 
 Age-0 survival is modeled as:
 
-\[
-s_0 = \alpha e^{-\beta_d N_t}
-\]
+<sub>0</sub> = α · e<sup>−βᵈ N<sub>t</sub></sup>
 
 where:
 - **α** = baseline age-0 survival  
@@ -38,11 +36,10 @@ The objective is to estimate **α** and **βᵈ**, quantify uncertainty, and ass
 **Methods**
 - Age-structured population model  
 - Maximum likelihood estimation  
-- Optimization using simulated annealing (`mle2(..., method = "SANN")`)  
+- Optimization using mle2, SANN 
 - Model validation via observed vs. predicted abundance-at-age  
 
 **Tools**
 - R  
-- `bbmle`, `tidyverse`, `ggplot2`  
 - Reproducible scripts and version-controlled workflow  
-
+- 'bbmle', 'tidyverse', 'ggplot2'
